@@ -4,14 +4,17 @@
   "private": true,
   "dependencies": {
     "immutable": "^4.0.0-rc.12",
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
     "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -29,6 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "flow-bin": "^0.95.1"
+    "flow-bin": "^0.95.1",
+    "flow-typed": "^2.5.1"
   }
 }
